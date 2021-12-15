@@ -1,0 +1,42 @@
+body {
+  color: rgb(90, 29, 29);
+  font-family: "Corinthia", cursive;
+  font-family: "Fira Sans", sans-serif;
+}
+.main {
+  background-color: rgb(204, 181, 150);
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: ;
+  justify-content: space-between;
+}
+.bg-image {
+  width: 1300px;
+  margin: 0 auto;
+}
+.logo-img {
+  width: 100px;
+  margin: 0 auto;
+}
+.input-img {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.text {
+  color: rgb(90, 29, 29);
+}
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+  display: block;
+}
+span {
+  font-family: "Corinthia", cursive;
+  font-size: 50px;
+  color: rgb(63, 46, 46);
+  text-align: end;
+  position: absolute;
+}
