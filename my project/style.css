@@ -54,9 +54,12 @@ h1 {
 .container-fluid {
   background-color: beige;
   margin-top: -1%;
+  margin-bottom: -1%;
+  overflow: hidden;
 }
 .footer-copyright {
   background-color: #ffff;
   margin-top: 7%;
+
   background-color: beige;
 }
