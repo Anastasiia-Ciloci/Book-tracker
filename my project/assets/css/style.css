@@ -1,0 +1,68 @@
+body {
+  color: rgb(90, 29, 29);
+  font-family: "Corinthia", cursive;
+  font-family: "Fira Sans", sans-serif;
+  background-color: rgb(226, 209, 187);
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: 0;
+  justify-content: space-between;
+}
+.bg-image {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 100px;
+  margin: 0 auto;
+}
+.input-img {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.text {
+  color: rgb(90, 29, 29);
+}
+h1 {
+  font-size: 70px;
+  font-weight: 800;
+  display: block;
+}
+
+/*vika*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Corinthia", cursive;
+  font-size: 40px;
+  color: rgb(63, 46, 46);
+}
+.input-group {
+  width: 40% !important;
+}
+.container-input {
+  margin-bottom: 30px;
+  margin-top: 7%;
+  margin-left: 10%;
+}
+.container-fluid {
+  background-color: beige;
+  margin-top: -1%;
+  margin-bottom: -1%;
+  overflow: hidden;
+}
+.footer-copyright {
+  background-color: #ffff;
+  margin-top: 7%;
+  background-color: beige;
+}
+.container2 {
+  margin-top: 5%;
+}
