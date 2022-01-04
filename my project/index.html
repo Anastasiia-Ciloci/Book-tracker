@@ -10,10 +10,10 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Assembly of
     Readers</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 <body>
-  <nav class="navbar navbar-expand-sm sticky-top navbar-light " id="navTop">
+  <nav class="navbar navbar-expand-md sticky-top navbar-light " id="navTop">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="">
         <h2 class="ml-4">Assembly of
@@ -26,10 +26,10 @@
       <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-book" href="#">Pick a Book</a>
+            <a class="nav-link" href="#">Pick a Book</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-book" href="#">List
+            <a class="nav-link" href="list.html">List
               of my Books</a>
           </li>
           <li>
@@ -46,23 +46,34 @@
       <div class="centered">If you don’t like to read, you haven’t found the right book. -J.K.
         Rowling</div>
     </div>
-    <div class="container">
-      <div class="container-input">What book are you currently reading? </div>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Type name of the book" aria-label="Type name of the book"
-          aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button">Add</button>
+
+    <form>
+      <div class="container-input">
+        <label for="container-input">What book are you currently reading?</label>
+        <input id="input" type="text" placeholder="Type name of the book">
+        <input type="submit" value="Add">
+      </div>
+    </form>
+
+    <!-- <form>
+      <div class="container">
+        <div class="container-input">What book are you currently reading? </div>
+
+        <div class="input-group">
+          <input id="input" class="input" type="text" placeholder="Type name of the book">
+          <button id="add" class="column">Add</button>
         </div>
       </div>
-    </div>
+    </form>
+ -->
 
     <footer class="page-footer font-small ">
       <div class="footer-copyright text-center py-3">© 2021 Copyright:
         <a>Anastasia & Viktoriia</a>
       </div>
     </footer>
-
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
