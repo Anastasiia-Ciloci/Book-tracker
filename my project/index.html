@@ -47,7 +47,7 @@
         Rowling</div>
     </div>
 
-    <form>
+    <!-- <form>
       <div class="container-input">
         <label for="container-input">What book are you currently reading?</label>
         <input id="name" type="text" placeholder="Type name of the book">
@@ -56,15 +56,24 @@
           <h3 id="response"></h3>
         </div>
       </div>
-    </form>
+    </form> -->
 
-    <footer class="page-footer font-small ">
-      <div class="footer-copyright text-center py-3">© 2021 Copyright:
-        <a>Anastasia & Viktoriia</a>
-      </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/js/index.js"></script>
+    <form id="book-form" method="POST">
+      <div class="container-input"></div>
+      <label for="book-text">Answer by pressing Enter:</label>
+      <input type="text" placeholder="Name of current book?" name="book-text" id="book-text" />
+  </div>
+  </form>
+  <p>Number of Books: <span id="book-count">0</span></p>
+  <ul id="book-list"></ul>
+
+  <footer class="page-footer font-small ">
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+      <a>Anastasia & Viktoriia</a>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/js/index.js"></script>
 </body>
 
 </html>
